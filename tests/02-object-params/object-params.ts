@@ -3,8 +3,6 @@ type Params = {
 	second: number;
 };
 
-function sum(params: Params) {
+export function sum(params: Params) {
 	return params.first + params.second;
 }
-
-export { sum };

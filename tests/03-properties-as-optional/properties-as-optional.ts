@@ -3,12 +3,10 @@ type Params = {
 	lastName?: string;
 };
 
-function getName(params: Params) {
+export function getName(params: Params) {
 	if (params.lastName) {
 		return `${params.firstName} ${params.lastName}`;
 	}
 
 	return params.firstName;
 }
-
-export { getName };
