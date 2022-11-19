@@ -5,6 +5,11 @@ const defaultUser: User = {
 	role: 'user',
 };
 
-test('should get user is the user', () => {
-	expect(getUser(defaultUser)).toBe('Thanh is user');
+const defaultAdmin: User = {
+	name: 'Thanh',
+	role: 'admin',
+};
+
+test('should get user is the admin', () => {
+	expect(getUser(defaultUser)).toBe('Thanh is admin');
 });
