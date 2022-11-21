@@ -1,4 +1,4 @@
-export function tryCatchDemo  (state: "fail" | "succeed")  {
+export function tryCatchDemo(state: "fail" | "succeed")  {
   try {
     if (state === "fail") {
       throw new Error("Failure!");
@@ -6,4 +6,4 @@ export function tryCatchDemo  (state: "fail" | "succeed")  {
   } catch (e) {
     return e.message;
   }
-};
+}
