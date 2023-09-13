@@ -1,16 +1,17 @@
-interface User {
+export interface Base {
 	id: string;
+}
+
+export interface User extends Base {
 	firstName: string;
 	lastName: string;
 }
 
-interface Post {
-	id: string;
+export interface Post extends Base {
 	title: string;
 	body: string;
 }
 
-interface Comment {
-	id: string;
+export interface Comment extends Base {
 	comment: string;
 }

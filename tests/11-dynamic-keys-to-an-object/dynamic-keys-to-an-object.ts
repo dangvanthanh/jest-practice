@@ -1,5 +1,5 @@
 export function createCache() {
-	const cache = {};
+	const cache: Record<string, string> = {};
 
 	const add = (id: string, value: string) => {
 		cache[id] = value;

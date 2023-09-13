@@ -1,3 +1,4 @@
+import { expect, it } from 'vitest';
 import { User, countPosts } from './arrays';
 
 const defaultUser: User = {
@@ -10,6 +11,6 @@ const defaultUser: User = {
 	],
 };
 
-test('count posts is 2', () => {
+it('count posts is 2', () => {
 	expect(countPosts(defaultUser)).toBe(2);
 });

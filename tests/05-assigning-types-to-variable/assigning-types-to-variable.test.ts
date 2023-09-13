@@ -1,3 +1,4 @@
+import { expect, it } from 'vitest';
 import { User, getUserId } from './assigning-types-to-variable';
 
 const defaultUser: User = {
@@ -7,6 +8,6 @@ const defaultUser: User = {
 	isAdmin: false,
 };
 
-test('should get the user id', () => {
+it('should get the user id', () => {
 	expect(getUserId(defaultUser)).toBe(1);
 });

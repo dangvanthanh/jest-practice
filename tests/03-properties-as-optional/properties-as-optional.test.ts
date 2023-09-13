@@ -1,6 +1,7 @@
+import { expect, it } from 'vitest';
 import { getName } from './properties-as-optional';
 
-test('should work with just the first name', () => {
+it('should work with just the first name', () => {
 	const name = getName({
 		firstName: 'Thanh',
 	});
@@ -8,7 +9,7 @@ test('should work with just the first name', () => {
 	expect(name).toBe('Thanh');
 });
 
-test('should work with the first name and last name', () => {
+it('should work with the first name and last name', () => {
 	const name = getName({
 		firstName: 'Thanh',
 		lastName: 'Dang',

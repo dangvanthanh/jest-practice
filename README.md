@@ -1,9 +1,7 @@
-# Jest Practice
+# Testing Practice
 
-- [Jest](https://jestjs.io/)
-- [Ts-Jest](https://kulshekhar.github.io/ts-jest/)
-- [Rome](https://rome.tools/)
-
+- [Vitest](https://vitest.dev/)
+- [Biomejs](https://biomejs.dev/)
 
 ## License
 
