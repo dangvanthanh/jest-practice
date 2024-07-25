@@ -1,15 +1,15 @@
 export interface Base {
-	id: string;
+	id: string
 }
 
 export interface User extends Base {
-	firstName: string;
-	lastName: string;
+	firstName: string
+	lastName: string
 }
 
 export interface Post extends Base {
-	title: string;
-	body: string;
+	title: string
+	body: string
 }
 
 export const getDefaultUserAndPosts = (): User & { posts: Post[] } => {
@@ -24,5 +24,5 @@ export const getDefaultUserAndPosts = (): User & { posts: Post[] } => {
 				body: 'It is pretty edam difficult',
 			},
 		],
-	};
-};
+	}
+}

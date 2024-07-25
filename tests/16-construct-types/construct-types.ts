@@ -1,9 +1,9 @@
 export interface User {
-	id: string;
-	firstName: string;
-	lastName: string;
+	id: string
+	firstName: string
+	lastName: string
 }
 
-export type UserOmitType = Omit<User, 'id'>;
+export type UserOmitType = Omit<User, 'id'>
 
-export type UserPickType = Pick<User, 'firstName' | 'lastName'>;
+export type UserPickType = Pick<User, 'firstName' | 'lastName'>

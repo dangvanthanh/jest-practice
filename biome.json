@@ -9,15 +9,10 @@
 			"recommended": true
 		}
 	},
-	"formatter": {
-		"enabled": true,
-		"indentStyle": "tab",
-		"lineWidth": 120
-	},
 	"javascript": {
 		"formatter": {
 			"quoteStyle": "single",
-			"trailingCommas": "all"
+			"semicolons": "asNeeded"
 		}
 	}
 }

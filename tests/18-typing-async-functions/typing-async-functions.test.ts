@@ -1,5 +1,5 @@
-import { expect, it } from 'vitest';
-import { createThenGetUser } from './typing-async-functions';
+import { expect, it } from 'vitest'
+import { createThenGetUser } from './typing-async-functions'
 
 it('Should create the user, then get them', async () => {
 	const user = await createThenGetUser(
@@ -9,11 +9,11 @@ it('Should create the user, then get them', async () => {
 			firstName: 'Thanh',
 			lastName: 'Dang',
 		}),
-	);
+	)
 
 	expect(user).toEqual({
 		id: '1',
 		firstName: 'Thanh',
 		lastName: 'Dang',
-	});
-});
+	})
+})

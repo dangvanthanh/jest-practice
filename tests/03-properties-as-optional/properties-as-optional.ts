@@ -1,12 +1,12 @@
 type Params = {
-	firstName: string;
-	lastName?: string;
-};
+	firstName: string
+	lastName?: string
+}
 
 export function getName(params: Params) {
 	if (params.lastName) {
-		return `${params.firstName} ${params.lastName}`;
+		return `${params.firstName} ${params.lastName}`
 	}
 
-	return params.firstName;
+	return params.firstName
 }

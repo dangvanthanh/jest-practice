@@ -5,8 +5,8 @@ export enum Gender {
 
 export function getPokemon(name: string, gender?: Gender) {
 	if (gender) {
-		return `${name} is ${gender}`;
+		return `${name} is ${gender}`
 	}
 
-	return name;
+	return name
 }

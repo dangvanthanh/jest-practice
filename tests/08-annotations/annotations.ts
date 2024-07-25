@@ -1,14 +1,14 @@
 export interface Post {
-	id: number;
-	title: string;
+	id: number
+	title: string
 }
 
 export interface User {
-	id: number;
-	firstName: string;
-	lastName: string;
-	role: 'admin' | 'user' | 'super-admin';
-	posts: Array<Post>;
+	id: number
+	firstName: string
+	lastName: string
+	role: 'admin' | 'user' | 'super-admin'
+	posts: Array<Post>
 }
 
 export const makeUser = (): User => {
@@ -23,5 +23,5 @@ export const makeUser = (): User => {
 				title: 'How I eat so much cheese',
 			},
 		],
-	};
-};
+	}
+}

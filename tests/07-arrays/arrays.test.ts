@@ -1,5 +1,5 @@
-import { expect, it } from 'vitest';
-import { type User, countPosts } from './arrays';
+import { expect, it } from 'vitest'
+import { type User, countPosts } from './arrays'
 
 const defaultUser: User = {
 	id: 1,
@@ -9,8 +9,8 @@ const defaultUser: User = {
 		{ id: 1, title: 'awsd' },
 		{ id: 2, title: 'qwerty' },
 	],
-};
+}
 
 it('count posts is 2', () => {
-	expect(countPosts(defaultUser)).toBe(2);
-});
+	expect(countPosts(defaultUser)).toBe(2)
+})
