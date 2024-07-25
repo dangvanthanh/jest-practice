@@ -30,5 +30,5 @@ it('divide 4 / 2 to equal 2', () => {
 });
 
 it('divide 6 / 0 to equal Infinity', () => {
-	expect(divide(6, 0)).toBe(Infinity);
+	expect(divide(6, 0)).toBe(Number.POSITIVE_INFINITY);
 });

@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest';
-import { Post, User } from './inheriting';
+import type { Post, User } from './inheriting';
 
 it('Should return object of user', () => {
 	const user: User = {

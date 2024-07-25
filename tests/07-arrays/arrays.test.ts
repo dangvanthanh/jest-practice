@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest';
-import { User, countPosts } from './arrays';
+import { type User, countPosts } from './arrays';
 
 const defaultUser: User = {
 	id: 1,

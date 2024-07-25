@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest';
-import { User, getUser } from './constraining-value-types';
+import { type User, getUser } from './constraining-value-types';
 
 const defaultUser: User = {
 	name: 'Thanh',

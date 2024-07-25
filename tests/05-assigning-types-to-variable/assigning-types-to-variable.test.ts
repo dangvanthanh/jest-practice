@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest';
-import { User, getUserId } from './assigning-types-to-variable';
+import { type User, getUserId } from './assigning-types-to-variable';
 
 const defaultUser: User = {
 	id: 1,

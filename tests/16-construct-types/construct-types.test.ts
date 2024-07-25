@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest';
-import { UserOmitType, UserPickType } from './construct-types';
+import type { UserOmitType, UserPickType } from './construct-types';
 
 it('Should return user omit', () => {
 	const userOmit: UserOmitType = {
